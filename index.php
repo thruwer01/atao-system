@@ -22,7 +22,11 @@ class App {
         NULL => "ATAO - Главная",
         'contacts' => 'ATAO - Контакты',
         'about' => 'ATAO - О нас',
-        'profile' => 'АТАО - Профиль'
+        'profile' => 'АТАО - Профиль',
+        'disciplines' => 'АТАО - Блоки дисциплин',
+        'edit-users' => 'АТАО - Редактор пользователей',
+        'edit-disciplines' => 'АТАО - Редактор дисциплин',
+        'my-grades' => 'АТАО - Мои оценки'
     ];
 
     public function checkAuth($sessionInfo, $db) {
